@@ -349,6 +349,8 @@ our sponsors styles
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
         justify-content: center;
+        gap: 50px;
+        margin-bottom: auto;
     }
     .banner-title, .banner-description{
         width: 100vw;
