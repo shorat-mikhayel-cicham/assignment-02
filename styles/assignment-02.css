@@ -1,0 +1,199 @@
+/* header & nav bar styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Work Sans';
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 50px 5% 0;
+}
+
+.nav-bar-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-bar-info ul {
+    display: flex;
+    gap: 35px;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/*------------
+banner description & banner image styles
+ ------------------- */
+.banner {
+    text-align: center;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102px;
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    margin-bottom: 50px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner-image img {
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0 5%;
+}
+
+/*------------
+Our features container styles 
+------------------*/
+.our-features-container {
+    display: flex;
+    width: 90%;
+    margin: 65px 5% 0;
+    gap: 50px;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.features-images .img-style {
+    height: 242px;
+    width: 242px;
+}
+
+.our-features {
+    padding-top: 150px;
+}
+
+.features-title {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24;
+}
+
+.features-title .color-2 {
+    color: #131313;
+}
+
+.features-title .color-1 {
+    color: #727272;
+}
+
+.features-description {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* -----------
+our architect Experiences styles
+----------- */
+.architect-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 90%;
+    margin: 100px 5% 0;
+}
+
+.experience-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 2px solid #FF900E;
+    border-width: 5px;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.experience-description {
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.architect-image img {
+    width: 508px;
+    height: 982px;
+}
+
+.article {
+    padding: 30px;
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.article-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.article-description {
+    color: #727272;
+    font-size: 16px;
+}
+
+.btn-primary-1 {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 242px;
+    height: 100px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+}
+
+.btn-font {
+    font-weight: 700;
+    font-size: 45px;
+
+}
