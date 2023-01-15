@@ -34,6 +34,9 @@ ul a {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+} 
+ul a:hover {
+    color: purple;
 }
 
 ul li {
@@ -77,6 +80,10 @@ banner description & banner image styles
     background: #FF900E;
     border-radius: 8px;
     border: none;
+}
+.btn-primary:hover {
+    background-color: purple;
+    font-family: monospace;
 }
 .btn-issu{
     text-align: center;
@@ -177,6 +184,10 @@ our architect Experiences styles
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
+.article:hover{
+    background-color: silver;
+    color: black;
+}
 
 .article-title {
     color: #131313;
@@ -200,6 +211,9 @@ our architect Experiences styles
     font-size: 25px;
     text-align: center;
     border: none;
+}
+.btn-primary-1:hover{
+    background-color: purple;
 }
 
 .btn-font {
@@ -243,6 +257,11 @@ some facts styles
     padding-bottom: auto;
     width: 200px;
     height: 200px;
+}
+.facts-item:hover{
+    background-color: purple;
+    color: white !important;
+    font-family: monospace;
 }
 
 .facts-item img {
@@ -343,6 +362,10 @@ our sponsors styles
         margin: 40px;
         margin-left: 30%;
     }
+    .architect-image .image-is{
+        width: 500px;
+    }
+
 }
 
 @media screen and (min-width:577px) and (max-width: 972px) {
