@@ -14,8 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: 50px 5% 0;
+    width: 90vw;
+    margin: 50px 5vw 0;
 }
 
 .nav-bar-title {
@@ -63,7 +63,9 @@ banner description & banner image styles
     font-size: 16px;
     margin-bottom: 32px;
 }
-
+.hide {
+    display: none;
+}
 .btn-primary {
     margin-bottom: 50px;
     width: 180px;
@@ -76,12 +78,15 @@ banner description & banner image styles
     border-radius: 8px;
     border: none;
 }
+.btn-issu{
+    text-align: center;
+}
 
 .banner-image img {
     height: auto;
-    width: 90%;
+    width: 90vw;
     border-radius: 5px;
-    padding: 0 5% 45px;
+    padding: 0 5vw 45px;
     
 }
 
@@ -90,8 +95,8 @@ Our features container styles
 ------------------*/
 .our-features-container {
     display: flex;
-    width: 90%;
-    margin: 65px 5% 0;
+    width: 90vw;
+    margin: 65px 5vw 0;
     gap: 50px;
 }
 
@@ -140,8 +145,8 @@ our architect Experiences styles
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-evenly;
     gap: 20px;
-    width: 90%;
-    margin: 100px 5% 0;
+    width: 90vw;
+    margin: 100px 5vw 0;
 }
 
 .experience-title {
@@ -207,8 +212,8 @@ our architect Experiences styles
 some facts styles 
 --------------*/
 .some-facts {
-    width: 90%;
-    margin: 130px 5% 0;
+    width: 90vw;
+    margin: 130px 5vw 0;
 
 }
 
@@ -263,8 +268,8 @@ some facts styles
 our sponsors styles 
 ----------- */
 .our-sponsors {
-    margin: 150px 5% 0;
-    width: 90%;
+    margin: 150px 5vw 0;
+    width: 90vw;
 }
 
 .sponsors-info {
@@ -302,8 +307,8 @@ our sponsors styles
 /*------------ footer description styles 
 =========----------- */
 .footer {
-    width: 90%;
-    margin: 130px 5%;
+    width: 90vw;
+    margin: 130px 5vw;
 }
 
 .footer-description {
@@ -313,4 +318,35 @@ our sponsors styles
     font-size: 20px;
     background: #FFF4E7;
     border-radius: 8px;
+    padding: 20px;
+}
+@media screen and (max-width: 577px) {
+    .sponsors-container, .facts-container, .our-features-container, .nav-bar-container {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+    .architect-container, .features-images {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-title, .banner-description{
+        width: 100vw;
+        text-align: center;
+    }
+    .btn-primary{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-primary-1 {
+        margin: 40px;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 972px) {
+    .container {
+
+    }
 }
